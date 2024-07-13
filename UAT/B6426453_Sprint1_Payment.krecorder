@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>Sprint 1</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">fail required upload</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.banna-cafe.store/payment/18<datalist><option>https://www.banna-cafe.store/payment/18</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='root']/main/div/div[2]/main/div/div<datalist><option>xpath=//div[@id='root']/main/div/div[2]/main/div/div</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::div[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='สำเร็จรูป'])[1]/following::div[6]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='เสร็จสิ้น'])[1]/preceding::div[5]</option><option>xpath=//div[2]/main/div/div</option><option>css=div.contentMenu > main > div > div</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='root']/main/div/div[2]/main/div/div[2]/div/input<datalist><option>xpath=//div[@id='root']/main/div/div[2]/main/div/div[2]/div/input</option><option>xpath=//div[2]/div/input</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>xpath=//div[@id='root']/main/div/div[2]/main/div/div[2]/div/input<datalist><option>xpath=//div[@id='root']/main/div/div[2]/main/div/div[2]/div/input</option><option>xpath=//div[2]/div/input</option></datalist></td><td>winter</td></tr>
+<tr><td>click</td><td>css=circle<datalist><option>css=circle</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='root']/main/div/div[2]/main/button/span<datalist><option>xpath=//div[@id='root']/main/div/div[2]/main/button/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='กรุณาอัพโหลดหลักฐานการโอน'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ยกเลิก'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='BANNA'])[1]/preceding::span[2]</option><option>xpath=//*/text()[normalize-space(.)='เสร็จสิ้น']/parent::*</option><option>xpath=//button/span</option><option>css=button.ant-btn.css-1qhpsh8.ant-btn-default.ant-btn-lg > span</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Pass + Code</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.banna-cafe.store/payment/17<datalist><option>https://www.banna-cafe.store/payment/17</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='root']/main/div/div[2]/main/div/div[2]/ul<datalist><option>xpath=//div[@id='root']/main/div/div[2]/main/div/div[2]/ul</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='กรุณาอัพโหลดหลักฐานการโอน'])[1]/following::ul[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::ul[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='เสร็จสิ้น'])[1]/preceding::ul[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ยกเลิก'])[1]/preceding::ul[1]</option><option>xpath=//div[2]/ul</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='root']/main/div/div[2]/main/div/div[2]/div/input<datalist><option>xpath=//div[@id='root']/main/div/div[2]/main/div/div[2]/div/input</option><option>xpath=//div[2]/div/input</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>xpath=//div[@id='root']/main/div/div[2]/main/div/div[2]/div/input<datalist><option>xpath=//div[@id='root']/main/div/div[2]/main/div/div[2]/div/input</option><option>xpath=//div[2]/div/input</option></datalist></td><td>Happy Newyear</td></tr>
+<tr><td>click</td><td>css=circle<datalist><option>css=circle</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='root']/main/div/div[2]/main/div/div/div<datalist><option>xpath=//div[@id='root']/main/div/div[2]/main/div/div/div</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::div[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='สำเร็จรูป'])[1]/following::div[7]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='เสร็จสิ้น'])[1]/preceding::div[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ยกเลิก'])[1]/preceding::div[4]</option><option>xpath=//*/text()[normalize-space(.)='กรุณาอัพโหลดหลักฐานการโอน']/parent::*</option><option>xpath=//div[2]/main/div/div/div</option><option>css=div.contentMenu > main > div > div > div</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>xpath=//input[@type='file']<datalist><option>xpath=//input[@type='file']</option><option>xpath=//div[@id='root']/main/div/div[2]/main/div/div/div/input</option><option>xpath=//input</option><option>css=input[type="file"]</option></datalist></td><td>C:\Users\Balle\Downloads\cbimage.png</td></tr>
+<tr><td>click</td><td>xpath=//div[@id='root']/main/div/div[2]/main/button/span<datalist><option>xpath=//div[@id='root']/main/div/div[2]/main/button/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='กรุณาอัพโหลดหลักฐานการโอน'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ยกเลิก'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='BANNA'])[1]/preceding::span[2]</option><option>xpath=//*/text()[normalize-space(.)='เสร็จสิ้น']/parent::*</option><option>xpath=//button/span</option><option>css=button.ant-btn.css-1qhpsh8.ant-btn-default.ant-btn-lg > span</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Pass + No Code</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.banna-cafe.store/payment/15<datalist><option>https://www.banna-cafe.store/payment/14</option><option>https://www.banna-cafe.store/payment/15</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='root']/main/div/div[2]/main/div/div/div<datalist><option>xpath=//div[@id='root']/main/div/div[2]/main/div/div/div</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::div[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='สำเร็จรูป'])[1]/following::div[7]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='เสร็จสิ้น'])[1]/preceding::div[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ยกเลิก'])[1]/preceding::div[4]</option><option>xpath=//*/text()[normalize-space(.)='กรุณาอัพโหลดหลักฐานการโอน']/parent::*</option><option>xpath=//div[2]/main/div/div/div</option><option>css=div.contentMenu > main > div > div > div</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>xpath=//input[@type='file']<datalist><option>xpath=//input[@type='file']</option><option>xpath=//div[@id='root']/main/div/div[2]/main/div/div/div/input</option><option>xpath=//input</option><option>css=input[type="file"]</option></datalist></td><td>C:\Users\Balle\Downloads\cbimage.png</td></tr>
+<tr><td>click</td><td>xpath=//button[@type='button']<datalist><option>xpath=//button[@type='button']</option><option>xpath=//div[@id='root']/main/div/div[2]/main/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='กรุณาอัพโหลดหลักฐานการโอน'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ยกเลิก'])[1]/preceding::button[1]</option><option>xpath=//button</option><option>css=button.ant-btn.css-1qhpsh8.ant-btn-default.ant-btn-lg</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>

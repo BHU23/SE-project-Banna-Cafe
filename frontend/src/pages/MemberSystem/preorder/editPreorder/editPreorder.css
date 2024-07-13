@@ -1,0 +1,181 @@
+/* #181D31 #E48F44 #678983 #F0E9D2, #E6DDC4 */
+
+.edit-crad h5,
+.edit-crad h3,
+.edit-crad h4,
+.edit-crad h6 {
+    margin: 0;
+}
+
+.rat-costEdit {
+    width: 100%;
+    height: 3%;
+    display: flex;
+    justify-content: end;
+    padding: 12px 0 0 0;
+}
+
+.rat-costEdit span {
+    padding: 0 12px;
+}
+
+.form-edit {
+    width: auto;
+    height: 87.25%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+}
+
+.form-edit hr {
+    width: 100%;
+    border-top: 2px solid #E6DDC4;
+    margin: 0;
+}
+
+.form-edit h3 {
+    padding: 5px 0;
+    align-self: center;
+}
+.data-preOrder h4{
+    margin: 0;
+}
+
+.basket-menu {
+    height: 70%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.basket-menu::-webkit-scrollbar {
+    display: none;
+}
+
+:root {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.menu-data {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.imge-item{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imge-item img{
+    width: 60px auto;
+    height: 60px;
+    align-self: center;
+}
+
+.name-item {
+    width: 25%;
+    overflow: hidden;
+}
+
+.name-item span,
+.quantity {
+    color: #E48F44;
+}
+
+.add-minus {
+    width: 40px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.btn-quantity {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E48F44;
+    cursor: pointer;
+}
+
+.btn-quantity.add {
+    background-color: #678983;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+}
+
+.btn-description,.btn-deletePreordermenu{
+    width: 80px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E48F44;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-deletePreordermenu{
+    background-color: red;
+    color:#ffffff;
+}
+
+.data-preOrder {
+    padding: 10px 0;
+    height: 30% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.preorderInput {
+    width: 100%;
+    border: 2px solid #678983;
+    border-radius: 5px;
+    padding: 0 10px;
+    outline: none;
+}
+
+:where(.css-dev-only-do-not-override-6j9yrn).ant-form-item{
+    width: 100%;
+    margin: 0;
+}
+
+
+.total-amout-allMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    mask-origin: 0;
+    height: 15%;
+}
+
+.total-amout-allMenu p {
+    color: #E48F44;
+}
+
+.edit-menu {
+    position: absolute;
+    transition: transform 5s ease;
+    transform: scale(0);
+}
+
+.edit-menuactive {
+    position: absolute;
+    transform: scale(1);
+}

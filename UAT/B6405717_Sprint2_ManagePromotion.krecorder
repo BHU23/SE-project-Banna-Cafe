@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>testPrrint2</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">pass case</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:3000/promotion/create<datalist><option>http://localhost:3000/promotion/create</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=basic_Code<datalist><option>id=basic_Code</option><option>xpath=//input[@id='basic_Code']</option><option>xpath=//form[@id='basic']/div/div/div/div/div[2]/div/div/input</option><option>xpath=//input</option><option>css=#basic_Code</option></datalist></td><td>300Ksubbanna</td></tr>
+<tr><td>type</td><td>id=basic_Name<datalist><option>id=basic_Name</option><option>xpath=//input[@id='basic_Name']</option><option>xpath=//form[@id='basic']/div/div[2]/div/div/div[2]/div/div/input</option><option>xpath=//div[2]/div/div/div[2]/div/div/input</option><option>css=#basic_Name</option></datalist></td><td>ฉลองครบ 300,000 ยอดขาย</td></tr>
+<tr><td>type</td><td>id=basic_Discount<datalist><option>id=basic_Discount</option><option>xpath=//input[@id='basic_Discount']</option><option>xpath=//form[@id='basic']/div/div[3]/div/div/div[2]/div/div/input</option><option>xpath=//div[3]/div/div/div[2]/div/div/input</option><option>css=#basic_Discount</option></datalist></td><td>200</td></tr>
+<tr><td>click</td><td>id=basic_TimeOfbegin<datalist><option>id=basic_TimeOfbegin</option><option>xpath=//input[@id='basic_TimeOfbegin']</option><option>xpath=//form[@id='basic']/div[2]/div/div/div/div[2]/div/div/div/div/input</option><option>xpath=//div[2]/div/div/div/div/input</option><option>css=#basic_TimeOfbegin</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::div[12]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::div[12]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Fr'])[1]/following::div[12]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/preceding::div[31]</option><option>xpath=//*/text()[normalize-space(.)='11']/parent::*</option><option>xpath=//tr[2]/td[5]/div</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=basic_TimeOfend<datalist><option>id=basic_TimeOfend</option><option>xpath=//input[@id='basic_TimeOfend']</option><option>xpath=//form[@id='basic']/div[2]/div[2]/div/div/div[2]/div/div/div/div/input</option><option>xpath=//div[2]/div/div/div[2]/div/div/div/div/input</option><option>css=#basic_TimeOfend</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[2]/following::div[21]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[2]/following::div[21]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Fr'])[2]/following::div[21]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Today'])[2]/preceding::div[22]</option><option>xpath=//div[4]/div/div/div/div/div/div[2]/table/tbody/tr[3]/td[7]/div</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=basic_Image<datalist><option>http://localhost:3000/promotion</option><option>id=basic_Image</option></datalist></td><td>C:\Users\NOPX\Downloads\ผงโกโก้.webp</td></tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option></datalist></td><td></td></tr>
+<tr><td>assertText</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Today'])[2]/following::span[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Today'])[2]/following::span[2]</option></datalist></td><td>บันทึกข้อมูลสำเร็จ</td></tr>
+</tbody></table>
+</body>
+</html>

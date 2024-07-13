@@ -1,0 +1,64 @@
+.footer-member{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+}
+
+.content.s6 {
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+.content.s6 span {
+    position: relative;
+    left: -10vw;
+    font-size: 1.2em;
+}
+
+.img-logo {
+    width: 75%;
+    height: 70%;
+    background-image: url(../../assets/logo2.png);
+    background-size: 100% 95%;
+}
+
+.text-s6 {
+    width: 75%;
+    height: 70%;
+}
+
+.text-s6 p {
+    margin: 3vh 2vw;
+}
+
+.icon-s6 {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 2vh 1vw;
+}
+
+.icon-s6 .icon svg {
+    margin: 5px;
+    width: 3vw;
+    height: 3vh;
+    color: #000;
+}
+
+.icon-s6 .icon svg:hover {
+    cursor: pointer;
+    color: #565656;
+}
+
+.img-map {
+    margin: 3vh 2vw;
+    width: 80%;
+    height: 70%;
+    background-image: url(../../assets/map.png);
+    background-size: cover;;
+}

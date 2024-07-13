@@ -1,0 +1,36 @@
+.status-history{
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 8px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status-history.s1 {
+    background-color: greenyellow;
+}
+
+.status-history.s2 {
+    background-color: red;
+}
+
+.history-datapop {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+
+.status-history.discription{
+    background-color: #E48F44;
+    color:#181D31;
+}
+.status-history.discription:hover{
+    background-color:#ffffff;
+    color: #E48F44;
+}

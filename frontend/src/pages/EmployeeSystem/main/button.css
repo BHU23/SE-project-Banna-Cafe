@@ -1,0 +1,22 @@
+:where(.css-dev-only-do-not-override-6j9yrn).ant-modal-confirm-info .ant-modal-confirm-body>.anticon {
+    color: #faad14;
+}
+
+/* :where(.css-dev-only-do-not-override-6j9yrn).ant-layout .ant-layout-sider-trigger {
+    background-color: #002140;
+} */
+
+:where(.css-1qhpsh8).ant-modal-confirm-info .ant-modal-confirm-body>.anticon {
+    color: #faad14;
+}
+
+:where(.css-1qhpsh8).ant-btn-primary {
+    color: #fff;
+    background: #faad14;
+    box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+}
+:where(.css-1qhpsh8).ant-btn-primary:hover {
+    color: #fff;
+    background: #faad14;
+    box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+}

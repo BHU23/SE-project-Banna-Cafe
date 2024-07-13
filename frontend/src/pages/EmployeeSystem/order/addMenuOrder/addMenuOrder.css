@@ -1,0 +1,161 @@
+/* #181D31 #E48F44 #678983 #F0E9D2 */
+.add-crad,
+.edit-crad {
+    /* width: 34vw; */
+    /* height: 70vh; */
+    width: 480px;
+    height: 650px;
+    background-color: #F0E9D2;
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px 3px #678983 inset, -4px -4px 4px 3px #678983 inset;
+    overflow: hidden;
+}
+
+.rat-costadd {
+    height: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 6px 12px 12px;
+}
+
+.rat-costadd .icon-close-addmenu {
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.add-crad h4,
+.add-crad h5 {
+    margin: 0;
+}
+
+.form-add {
+    width: auto;
+    height: 84%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 8px;
+    padding: 0 40px 10px 40px;
+}
+
+.addmenu-imge {
+    width: auto;
+    height: 200px;
+    align-self: center;
+}
+.addmenu-imge image{
+    width: 100%;
+    height: 100%;
+}
+
+.addmenu-name {
+    height: auto;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.addmenu-name span {
+    font-size: 12px;
+    color: #E48F44;
+}
+
+.menu-amount {
+    width: 120px;
+    height: 25px;
+    align-self: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.btn-amount {
+    width: 30%;
+    height: 100%;
+    background-color: #181D31;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-amount.minus {
+    background-color: #ffffff;
+}
+
+.btn-amount.plus {
+    color: #ffffff;
+}
+
+.menu-size {
+    width: auto;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.menu-size label {
+    padding: 2px 15px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+.menu-size label.active {
+    background-color: #E48F44;
+    color: #ffffff;
+}
+
+.menu-size input {
+    display: none;
+}
+
+.menu-sweetness,
+.menu-option {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    padding: 0 20px;
+}
+
+.menu-sweetness input,
+.menu-option input {
+    position: absolute;
+    transform: translateX(360px);
+}
+
+.menu-sweetness span {
+    color: #678983;
+}
+
+.menu-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    height: 20px;
+}
+
+.menu-total p {
+    color: #E48F44;
+}
+
+.btn-addmenu {
+    width: 100%;
+    height: 8%;
+    background-color: #181D31;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
